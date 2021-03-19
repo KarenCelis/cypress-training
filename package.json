@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/KarenCelis/cypress-training/issues"
   },
-  "homepage": "https://github.com/KarenCelis/cypress-training#readme"
+  "homepage": "https://github.com/KarenCelis/cypress-training#readme",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
 }
