@@ -10,10 +10,16 @@ describe('Buy a t-shirt', () => {
     cy.get('#email').type('aperdomobo@gmail.com')
     cy.get('#passwd').type('WorkshopProtractor')
 
-    // Debes completar la prueba ...
+    cy.get("#SubmitLogin").click();
+    cy.get(".cart_navigation span").click();
+
+    cy.get(".checker").click();
+    cy.get(".cart_navigation span").click();
+
+    cy.get("a.bankwire").click();
+    cy.get(".cart_navigation span").click();
 
     cy.get('#center_column > div > p > strong')
       .should('have.text', 'Your order on My Store is complete.')
   });
 });
-
