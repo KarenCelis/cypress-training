@@ -5,10 +5,10 @@ from "./products-list.page"
 export { ShopingCartPage }
 from "./shoping-cart.page"
 export { LoginPage }
-from ".login.page"
+from "./login.page"
 export { AddressStepPage }
 from "./address-step.page"
 export { ShippingStepPage }
-from ".shipping-step.page"
+from "./shipping-step.page"
 export { PaymentStepPage }
-from ".payment-step.page"
+from "./payment-step.page"
